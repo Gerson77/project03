@@ -17,7 +17,7 @@ exports[`<NavLinks /> should match snapshot 1`] = `
   text-decoration: none;
   font-size: 1.6rem;
   padding: 1.6rem;
-  color: #282a2a;
+  color: #0A1128;
   position: relative;
 }
 
@@ -51,6 +51,7 @@ exports[`<NavLinks /> should match snapshot 1`] = `
 
 <div>
   <nav
+    aria-label="Main menu"
     class="c0"
   >
     <a
