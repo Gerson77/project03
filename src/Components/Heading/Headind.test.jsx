@@ -92,4 +92,8 @@ describe('<Heading />', () => {
 
     expect(h6.tagName.toLocaleLowerCase()).toBe('h6');
   });
+  it('should match snapshot', () => {
+    const { container } = renderTheme(<Heading>texto</Heading>);
+    expect(container).toMatchSnapshot();
+  });
 });
