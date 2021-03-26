@@ -43,7 +43,7 @@ exports[`<Foote /> should render 1`] = `
         class="c3 c4"
       >
         <h1>
-          Olá
+          Hello
         </h1>
       </div>
     </div>

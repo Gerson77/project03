@@ -1,8 +1,8 @@
 import P from 'prop-types';
 import * as Styled from './styles';
-import { Menu } from '../../Components/Menu';
-import { Footer } from '../../Components/Footer';
-import { GoTop } from '../../Components/GoTop';
+import { Menu } from '../../components/Menu';
+import { Footer } from '../../components/Footer';
+import { GoTop } from '../../components/GoTop';
 
 export const Base = ({ links, logoData, footerHtml, children }) => {
   return (
@@ -10,7 +10,7 @@ export const Base = ({ links, logoData, footerHtml, children }) => {
       <Menu links={links} logoData={logoData} />
       <Styled.Container>
         {children}
-        <Footer html={footerHtml} />
+        <Footer footerHtml={footerHtml} />
       </Styled.Container>
       <GoTop />
     </>

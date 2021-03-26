@@ -1,6 +1,7 @@
-import linksMock from '../../Components/NavLinks/mock';
-import { GridText } from '../../Components/GridText';
-import gridMock from '../../Components/GridText/mock';
+import linksMock from '../../components/NavLinks/mock';
+
+import gridMock from '../../components/GridText/mock';
+import { GridText } from '../../components/GridText';
 
 export const mockBase = {
   children: (
@@ -18,5 +19,5 @@ export const mockBase = {
     text: 'Logo',
     link: '#',
   },
-  footerHtml: '<p>Teste de Footer</p>',
+  footerHtml: '<p>Teste de footer</p>',
 };
