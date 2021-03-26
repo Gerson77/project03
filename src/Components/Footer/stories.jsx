@@ -4,10 +4,11 @@ export default {
   title: 'Footer',
   component: Footer,
   args: {
-    html: `<p><a href="http://localhost:3000">Feito por Gerson Santos</a></p>`,
+    children: 'Footer',
   },
   argTypes: {
     children: { type: 'string' },
+    html: `<p><a href="http://localhost:3000">Feito por Gerson Santos</a></p>`,
   },
 };
 
