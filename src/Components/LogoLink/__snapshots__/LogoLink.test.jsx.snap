@@ -4,7 +4,6 @@ exports[`<?logoLink /> should match snapshot 1`] = `
 .c1 {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: inherit;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -17,7 +16,7 @@ exports[`<?logoLink /> should match snapshot 1`] = `
 }
 
 .c1 > img {
-  max-height: 2.5rem;
+  height: 2.5rem;
 }
 
 .c0 {
